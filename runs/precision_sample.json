@@ -1,0 +1,102 @@
+[
+ {
+  "uid": "fleurs-1677",
+  "ref": "곤충은",
+  "hyp": "곤층은",
+  "category": "sound_alike",
+  "severity": "meaning",
+  "human_label": "misspelling",
+  "by": "claude (classifier author); reviewed and accepted by jigon 2026-09-30",
+  "note": "곤층: nonword; meaning recoverable"
+ },
+ {
+  "uid": "fleurs-1907",
+  "ref": "직후",
+  "hyp": "짓고",
+  "category": "lexical",
+  "severity": "meaning",
+  "human_label": "meaning_changed",
+  "by": "jigon",
+  "note": "already judged by jigon"
+ },
+ {
+  "uid": "fleurs-1724",
+  "ref": "서기",
+  "hyp": "석이",
+  "category": "sound_alike",
+  "severity": "meaning",
+  "human_label": "meaning_changed",
+  "by": "jigon",
+  "note": "already judged by jigon"
+ },
+ {
+  "uid": "zeroth-105_003_2232",
+  "ref": "말다툼을",
+  "hyp": "말달툼을",
+  "category": "sound_alike",
+  "severity": "meaning",
+  "human_label": "misspelling",
+  "by": "claude (classifier author); reviewed and accepted by jigon 2026-09-30",
+  "note": "말달툼: nonword"
+ },
+ {
+  "uid": "zeroth-126_003_0166",
+  "ref": "사먹는다던지",
+  "hyp": "사먹는다든지",
+  "category": "sound_alike",
+  "severity": "meaning",
+  "human_label": "format_only",
+  "by": "claude (classifier author); reviewed and accepted by jigon 2026-09-30",
+  "note": "던지/든지: orthographic variant; the hypothesis form is the standard one"
+ },
+ {
+  "uid": "fleurs-1830",
+  "ref": "인민",
+  "hyp": "임민기구",
+  "category": "lexical",
+  "severity": "meaning",
+  "human_label": "misspelling",
+  "by": "claude (classifier author); reviewed and accepted by jigon 2026-09-30",
+  "note": "임민: nonword (pronunciation spelling of 인민)"
+ },
+ {
+  "uid": "fleurs-1757",
+  "ref": "돌연변이만이",
+  "hyp": "많이",
+  "category": "lexical",
+  "severity": "meaning",
+  "human_label": "meaning_changed",
+  "by": "jigon",
+  "note": "already judged by jigon"
+ },
+ {
+  "uid": "fleurs-1830",
+  "ref": "과반수를",
+  "hyp": "거반수를",
+  "category": "sound_alike",
+  "severity": "meaning",
+  "human_label": "misspelling",
+  "by": "claude (classifier author); reviewed and accepted by jigon 2026-09-30",
+  "note": "거반수: nonword"
+ },
+ {
+  "uid": "fleurs-1829",
+  "ref": "아낄",
+  "hyp": "아끌",
+  "category": "sound_alike",
+  "severity": "meaning",
+  "human_label": "misspelling",
+  "by": "claude (classifier author); reviewed and accepted by jigon 2026-09-30",
+  "note": "아끌: nonword"
+ },
+ {
+  "uid": "zeroth-105_003_0565",
+  "ref": "쩜",
+  "hyp": "오점구사시간",
+  "category": "lexical",
+  "severity": "meaning",
+  "human_label": "format_only",
+  "by": "claude (classifier author); reviewed and accepted by jigon 2026-09-30",
+  "note": "normalization gap: '쩜' is not mapped to '점' (tool bug, not an ASR error)"
+ }
+]

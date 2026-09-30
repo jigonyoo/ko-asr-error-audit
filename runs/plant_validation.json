@@ -1,0 +1,80 @@
+{
+  "planted": {
+    "negation": {
+      "n": 95,
+      "detected": 95,
+      "severity_ok": 95,
+      "categories": {
+        "negation": 95
+      },
+      "misses": []
+    },
+    "number": {
+      "n": 20,
+      "detected": 20,
+      "severity_ok": 19,
+      "categories": {
+        "number": 9,
+        "sound_alike": 9,
+        "latin_transliteration": 1,
+        "lexical": 1
+      },
+      "misses": [
+        {
+          "ref": "기지국에 이중 라디오가 있다면 이것이 802.11a, 802.11b와 802.11g가 이전 기종이라도 호환할 수 있게 해준다.",
+          "planted": "기지국에 이중 라디오가 있다면 이것이 102.11a, 802.11b와 802.11g가 이전 기종이라도 호환할 수 있게 해준다.",
+          "got": [
+            [
+              "latin_transliteration",
+              "팔백이점일일a",
+              "백이점일일a"
+            ]
+          ]
+        }
+      ]
+    },
+    "particle": {
+      "n": 95,
+      "detected": 95,
+      "severity_ok": 95,
+      "categories": {
+        "particle": 93,
+        "latin_transliteration": 2
+      },
+      "misses": []
+    },
+    "sound_alike": {
+      "n": 98,
+      "detected": 98,
+      "severity_ok": 98,
+      "categories": {
+        "sound_alike": 97,
+        "number": 1
+      },
+      "misses": []
+    },
+    "omission": {
+      "n": 96,
+      "detected": 96,
+      "severity_ok": 96,
+      "categories": {
+        "omission": 81,
+        "negation": 15
+      },
+      "misses": []
+    }
+  },
+  "controls": {
+    "spacing": {
+      "n": 98,
+      "false_alarms": 0,
+      "examples": []
+    },
+    "punct": {
+      "n": 50,
+      "false_alarms": 0,
+      "examples": []
+    }
+  },
+  "n_refs": 98
+}

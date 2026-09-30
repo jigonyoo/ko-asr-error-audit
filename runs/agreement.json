@@ -1,0 +1,102 @@
+{
+  "summary": {
+    "n": 11,
+    "decidable": 10,
+    "agree": 8
+  },
+  "items": [
+    {
+      "kind": "utterance",
+      "uid": "zeroth-126_003_0376",
+      "human": "reference_audio_mismatch",
+      "machine": "length_ratio=0.413 flag=True",
+      "agree": true
+    },
+    {
+      "kind": "utterance",
+      "uid": "zeroth-105_003_0478",
+      "human": "reference_audio_mismatch",
+      "machine": "length_ratio=1.64 flag=True",
+      "agree": true
+    },
+    {
+      "kind": "span",
+      "ref": "생식 계열 세포의 돌연변이만이",
+      "hyp": "생식기열 세포의 도련변이 많이",
+      "human": "meaning_changed",
+      "machine": "meaning",
+      "machine_category": "lexical",
+      "agree": true
+    },
+    {
+      "kind": "span",
+      "ref": "오늘날 날개를 접을 수 없는 곤충은",
+      "hyp": "어느 날 날개를 접을 수 없는 곤층은",
+      "human": "meaning_changed",
+      "machine": "meaning",
+      "machine_category": "lexical",
+      "agree": true
+    },
+    {
+      "kind": "span",
+      "ref": "사자는 무리 지어 사는",
+      "hyp": "사전은 물이 지어 사낸",
+      "human": "meaning_changed",
+      "machine": "meaning",
+      "machine_category": "lexical",
+      "agree": true
+    },
+    {
+      "kind": "span",
+      "ref": "미군은 한반도에 세 개 사드 포대",
+      "hyp": "미국은 한반도의 3개 사드포드",
+      "human": "meaning_changed",
+      "machine": "meaning",
+      "machine_category": "sound_alike",
+      "agree": true
+    },
+    {
+      "kind": "span",
+      "ref": "매출 일 조 이천 구백 십 구 억원",
+      "hyp": "매출 1조이 2,919원",
+      "human": "format_mismatch_ambiguous",
+      "machine": "meaning",
+      "machine_category": "number",
+      "agree": false
+    },
+    {
+      "kind": "utterance",
+      "uid": "fleurs-0049-1830",
+      "human": "parenthetical_spoken",
+      "machine": "needs audio; not decidable from text",
+      "agree": null
+    },
+    {
+      "kind": "span",
+      "ref": "아이티 정의와 민주주의 연구소",
+      "hyp": "IT 정의와 민주주의 연구소",
+      "human": "format_only",
+      "machine": "ambiguous",
+      "machine_category": "latin_transliteration",
+      "agree": false
+    },
+    {
+      "kind": "span",
+      "ref": "서기 400년경에",
+      "hyp": "석이 400년경에",
+      "human": "meaning_changed",
+      "machine": "meaning",
+      "machine_category": "sound_alike",
+      "agree": true
+    },
+    {
+      "kind": "span",
+      "ref": "교전이 발발한 직후",
+      "hyp": "교전이 발발한 짓고",
+      "human": "meaning_changed",
+      "machine": "meaning",
+      "machine_category": "lexical",
+      "agree": true
+    }
+  ]
+}
