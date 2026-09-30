@@ -1,0 +1,26 @@
+{
+  "utterances": 50,
+  "by_worst_severity": {
+    "meaning": 37,
+    "ambiguous": 4,
+    "clean": 6,
+    "format": 3
+  },
+  "chunks_by_category": {
+    "lexical": 58,
+    "sound_alike": 34,
+    "spacing": 21,
+    "minor_deletion": 15,
+    "number": 10,
+    "minor_insertion": 9,
+    "omission": 6,
+    "native_numeral": 4,
+    "negation": 3,
+    "particle": 3,
+    "latin_transliteration": 1
+  },
+  "suspect_ref_audio_mismatch": [
+    "zeroth-105_003_0478",
+    "zeroth-126_003_0376"
+  ]
+}

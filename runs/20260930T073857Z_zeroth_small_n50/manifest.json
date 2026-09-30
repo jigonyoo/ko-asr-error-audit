@@ -1,0 +1,30 @@
+{
+  "created_utc": "20260930T073857Z",
+  "dataset": "zeroth",
+  "hub_id": "kresnik/zeroth_korean",
+  "config": null,
+  "split": "test",
+  "revision_used": "main",
+  "license": "CC BY 4.0",
+  "source": "https://www.openslr.org/40/",
+  "limit": 50,
+  "n_processed": 50,
+  "transcriber": {
+    "backend": "faster-whisper",
+    "backend_version": "1.2.1",
+    "model": "small",
+    "device": "cpu",
+    "compute_type": "int8",
+    "decode": {
+      "language": "ko",
+      "task": "transcribe",
+      "temperature": 0.0,
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "vad_filter": false
+    }
+  },
+  "git_commit": null,
+  "python": "3.14.5",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O"
+}
