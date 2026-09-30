@@ -1,0 +1,20 @@
+{
+  "utterances": 50,
+  "by_worst_severity": {
+    "meaning": 35,
+    "format": 5,
+    "ambiguous": 2,
+    "clean": 8
+  },
+  "chunks_by_category": {
+    "sound_alike": 41,
+    "lexical": 34,
+    "spacing": 23,
+    "minor_deletion": 10,
+    "particle": 8,
+    "latin_transliteration": 7,
+    "minor_insertion": 6,
+    "native_numeral": 3
+  },
+  "suspect_ref_audio_mismatch": []
+}

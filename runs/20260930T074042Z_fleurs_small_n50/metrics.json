@@ -1,0 +1,10 @@
+{
+  "cer": 0.07789194564136559,
+  "wer": 0.27019498607242337,
+  "n_utterances": 50,
+  "ref_chars": 3017,
+  "ref_words": 718,
+  "normalization": "none (raw strings, M1 baseline)",
+  "audio_seconds_total": 614.4,
+  "wall_seconds": 121.7
+}
